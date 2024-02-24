@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  margin:0;
+  color: #D3D3D3;
+  min-height: 100vh;
+  padding-bottom: 41px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap:10px;
+  background-color: #040446;
+  opacity: 1;
+  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #040446 11px ), repeating-linear-gradient( #290a7655, #290a76 );
+}
+
+.title {
+  margin-top: 20px;
+  font-family: 'Press Start 2P', sans-serif;
+  text-decoration: #D3D3D3 ;
+  font-size: 50px;
+}
+
+main{
+  text-align: center;
+  background-color:#1C2333;
+  border: 1px solid #3c4043;
+  border-radius: 8px;
+  width: 97%;
+  margin: auto
+}
+
+#start{
+  display: flex;
+  flex-wrap: wrap;
+  gap:30px;
+  justify-content: center;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+input
+{
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  background: lightgray;
+  border-radius: 10px;
+  height: 35px;
+  width: auto;
+}
+
+button
+{
+  background-color: #5383E8;
+  opacity: 1;
+  border-radius: 10px;
+  color: black;
+  font-weight: bolder;
+  height: 35px;
+  width: 45px;
+  cursor: pointer;
+}
+:disabled {
+    background-color: dimgrey;
+    color: linen;
+    opacity: 1;
+}
+
+#center{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+#progressBar {
+  width: 70%;
+  background-color: grey;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+#progress {
+  width: 0%;
+  height: 30px;
+  background-color: #5383E8;
+  border-radius: 10px;
+}
+
+canvas {
+  border: 10px solid black;
+  border-radius:10px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid #3c4043;
+}
+
+th, td {
+  border: 1px solid #3c4043;
+}
+
+caption {
+  border: 2px solid #3c4043;
+  border-bottom: 0;
+  caption-side: top;
+  text-align: center;
+  font-weight: bold;
+}
+
+#first {background-color: gold;}
+#second {background-color: silver;}
+#third {background-color: #CD7F32;}
+leaderboard {background-color: lightgray;}
+
+footer {
+  width: 100;
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  background:#1C2333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #3c4043;
+  border-radius: 8px;
+}
